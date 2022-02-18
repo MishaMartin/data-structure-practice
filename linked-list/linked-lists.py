@@ -49,7 +49,7 @@ class LinkedList(object):
                 return d
             else:
                 this_node=this_node.get_next()
-            return None
+        return None
 
 myList=LinkedList()
 myList.add(5)
@@ -58,6 +58,3 @@ myList.add(12)
 myList.remove(8)
 print(myList.remove(12))
 print(myList.find(5))
-
-
-        
